@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+<body class="bg-gray-50 font-sans text-gray-900">
+    <div class="h-10 bg-blue-500 flex items-center justify-between px-6 text-2xl">
+        <div class="text-white font-bold">Apin Maulana</div>
+        <div class="text-2xl">
+            <div class="flex gap-5 items-center">
+            <div class="text-white hover:bg-blue-900 hover:p-2">Home</div>
+            <div class="text-white hover:bg-blue-900 hover:p-2">About</div>
+            <div class="text-white hover:bg-blue-900 hover:p-2">Contact</div>
+            <div class="text-white hover:bg-blue-900 hover:p-2">085862708927</div>
+            </div>
+        </div>
+    </div>
+    <!-- Section 1: Nama dan Background -->
+    <section class="h-screen bg-cover bg-center text-white" style="background-image: url('https://via.placeholder.com/1500');">
+        <div class="flex items-center justify-center h-full bg-[url(/img/c.jpeg)] bg-cover">
+            <div class="text-center">
+                <h1 class="text-5xl md:text-6xl font-bold">Apin Maulana</h1>
+                <p class="mt-4 text-lg">Web Developer | Designer | Freelancer</p>
+                <a href="#about" class="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-700">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Foto dan Data Diri -->
+    <section id="about" class="py-20 px-6 bg-sky-100">
+        <div class="container mx-auto flex flex-col md:flex-row items-center text-center md:text-left">
+            <!-- Foto -->
+            <div class="md:w-1/3 mb-8 md:mb-0">
+                <img src="/img/arpn.jpg" alt="Foto Saya" class="rounded-full mx-auto md:mx-0 border-4 border-blue-600">
+            </div>
+            <!-- Data Diri -->
+            <div class="md:w-2/3 md:ml-10">
+                <h2 class="text-3xl font-bold mb-4">About me</h2>
+                <p class="text-lg text-gray-700 mb-4">I am a programmer who believes that code is not just instructions for computers, but also a bridge to creating real-world solutions.</p>
+                <p class="text-lg text-gray-700">The world is constantly evolving, and as a programmer I am committed to continuing to innovate, solve problems, and provide solutions through technology.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Proyek atau Keahlian -->
+    <section id="skills" class="py-20 px-6 bg-gray-50">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8">Skills & Projects</h2>
+            <!-- Keahlian -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Skill 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-4">Frontend Development</h3>
+                    <p class="text-gray-700">Mastering HTML, CSS, and JavaScript to build interactive and responsive web applications. I am also experienced in using React and Vue.js.</p>
+                </div>
+                <!-- Skill 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-4">Backend Development</h3>
+                    <p class="text-gray-700">Experienced with Node.js, Express, and SQL/NoSQL databases. Building efficient and scalable APIs for web applications.</p>
+                </div>
+                <!-- Skill 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-blue-600 mb-4">UI/UX Design</h3>
+                    <p class="text-gray-700">Designing user-friendly and easy-to-use user interfaces using tools like Figma and Adobe XD. Focusing on optimal user experience.</p>
+                </div>
+            </div>
+            <!-- Proyek -->
+            <h3 class="text-2xl font-bold mt-12 mb-6">Some of My Projects</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="/img/rf.jpeg" alt="Proyek 1" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold">Project 1</h4>
+                        <p class="text-gray-600 mt-2">A brief description of this first project. I built this web application using React and Firebase.</p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="/img/t.png" alt="Proyek 2" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold">Project 2</h4>
+                        <p class="text-gray-600 mt-2">Description of the second project. This application is built using Node.js and MongoDB for the backend, with the interface using Tailwind CSS.</p>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="/img/nm.jpeg" alt="Proyek 3" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold">Project 3</h4>
+                        <p class="text-gray-600 mt-2">Third project description. An e-commerce application built with Next.js and MongoDB to handle products and users.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
